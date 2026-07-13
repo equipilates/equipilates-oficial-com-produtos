@@ -1,43 +1,45 @@
-# Equipilates - Equipamentos de Pilates 🏋️
+# Equipilates - Equipamentos de Pilates
 
-[![Deploy on Vercel](https://img.shields.io/badge/deploy-vercel-black?style=for-the-badge&logo=vercel)](https://equipilates-kd8843deo-webereaugustos-projects.vercel.app)
-[![GitHub](https://img.shields.io/badge/github-repo-181717?style=for-the-badge&logo=github)](https://github.com/webereaugusto/equipilates-html)
+[![Deploy on Vercel](https://img.shields.io/badge/deploy-vercel-black?style=for-the-badge&logo=vercel)](https://equipilates-oficial.vercel.app)
+[![GitHub](https://img.shields.io/badge/github-repo-181717?style=for-the-badge&logo=github)](https://github.com/equipilates/equipilates-oficial-com-produtos)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
 
 > Site institucional da **Equipilates**, líder em fabricação de equipamentos de Pilates na América Latina desde 2006.
 
 ---
 
-## 🌐 Acesso
+## Acesso
 
-### 🚀 Produção (Vercel)
-**https://equipilates-kd8843deo-webereaugustos-projects.vercel.app**
+### Produção (Vercel — conta Equipilates)
+**https://equipilates-oficial.vercel.app**
 
-Hospedado no **Vercel** com:
-- ⚡ CDN Global
-- 🔒 SSL/HTTPS automático
-- 📦 Cache otimizado (1 ano para assets)
-- 🌍 Edge Network
-- 📊 Analytics em tempo real
+Hospedado no **Vercel** (time Equipilates web) com:
+- CDN Global
+- SSL/HTTPS automático
+- Cache otimizado (1 ano para assets)
+- Edge Network
 
-### 🔗 GitHub Pages (Backup)
-**https://webereaugusto.github.io/equipilates-html/**
+### GitHub
+**https://github.com/equipilates/equipilates-oficial-com-produtos**
+
+### Domínio canônico
+**https://www.equipilates.com.br** (cutover DNS pendente)
 
 ---
 
-## ✨ Sobre o Projeto
+## Sobre o Projeto
 
 Landing page moderna e responsiva desenvolvida para apresentar as linhas de produtos Equipilates, focada em conversão e experiência do usuário.
 
-### 🎯 Principais Características
+### Principais Características
 
 | Característica | Descrição |
 |---|---|
-| 🎨 **Design Moderno** | Interface clean com animações suaves |
-| 📱 **Totalmente Responsivo** | Otimizado para mobile, tablet e desktop |
-| 🌍 **Multilíngue** | PT-BR, EN, ES, DE |
-| 🚀 **Alta Performance** | PageSpeed 85+ |
-| ♿ **Acessível** | ARIA labels completos |
+| **Design Moderno** | Interface clean com animações suaves |
+| **Totalmente Responsivo** | Otimizado para mobile, tablet e desktop |
+| **Multilíngue** | PT-BR, EN, ES, DE |
+| **Alta Performance** | PageSpeed 85+ |
+| **Acessível** | ARIA labels completos |
 | 🎯 **SEO Otimizado** | Meta tags, Schema.org |
 | 📸 **Galeria Inteligente** | Filtros + lazy loading |
 | 🎪 **Carrosséis Modernos** | Autoplay + touch |
@@ -62,7 +64,7 @@ SSL:       Automático via Vercel
 ### 1️⃣ Clone o Repositório
 
 ```bash
-git clone https://github.com/webereaugusto/equipilates-html.git
+git clone https://github.com/equipilates/equipilates-oficial-com-produtos.git
 cd equipilates-html
 ```
 
@@ -345,7 +347,7 @@ Desenvolvido com ❤️ para revolucionar o mercado de equipamentos de Pilates.
 
 <div align="center">
   
-### 🚀 [Acessar Site](https://equipilates-kd8843deo-webereaugustos-projects.vercel.app) | 📖 [Documentação](#) | 💬 [Suporte](#)
+### [Acessar Site](https://equipilates-oficial.vercel.app) | [Documentação](#) | [Suporte](#)
 
 **[⬆ Voltar ao topo](#equipilates---equipamentos-de-pilates-)**
 

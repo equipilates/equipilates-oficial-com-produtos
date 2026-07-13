@@ -2,7 +2,7 @@ import type { APIRoute } from 'astro';
 import { createClient } from '@supabase/supabase-js';
 
 // Configuração do Supabase com service_role para operações admin
-const SUPABASE_URL = import.meta.env.PUBLIC_SUPABASE_URL || 'https://hijmbsxcvcugnmkvldgl.supabase.co';
+const SUPABASE_URL = import.meta.env.PUBLIC_SUPABASE_URL || 'https://aigegzzlmpxtfewxixif.supabase.co';
 const SUPABASE_SERVICE_KEY = import.meta.env.SUPABASE_SERVICE_ROLE_KEY || '';
 
 // GET - Listar todos os usuários

@@ -11,8 +11,8 @@ const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..', '..', '..');
 
 // Configuração do Supabase
-const SUPABASE_URL = process.env.PUBLIC_SUPABASE_URL || 'https://hijmbsxcvcugnmkvldgl.supabase.co';
-const SUPABASE_ANON_KEY = process.env.PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhpam1ic3hjdmN1Z25ta3ZsZGdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg2Nzk1MzUsImV4cCI6MjA4NDI1NTUzNX0.Q4Hy-K8RxhVDCarj_ojD5ILb11iO4Jk7KC-5fYlrTh0';
+const SUPABASE_URL = process.env.PUBLIC_SUPABASE_URL || 'https://aigegzzlmpxtfewxixif.supabase.co';
+const SUPABASE_ANON_KEY = process.env.PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpZ2VnenpsbXB4dGZld3hpeGlmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM5NjE5MTksImV4cCI6MjA5OTUzNzkxOX0.I64rIVU9cOzSry8AV_NIyJcdQs6dWBx7q3IJTO-rllU';
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 

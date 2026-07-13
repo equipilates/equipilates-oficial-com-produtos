@@ -9,7 +9,7 @@
 import { createClient } from '@supabase/supabase-js';
 import { TRANSLATIONS_BY_SLUG } from './data/product-translations-manual.mjs';
 
-const SUPABASE_URL = process.env.PUBLIC_SUPABASE_URL || 'https://hijmbsxcvcugnmkvldgl.supabase.co';
+const SUPABASE_URL = process.env.PUBLIC_SUPABASE_URL || 'https://aigegzzlmpxtfewxixif.supabase.co';
 const SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const DRY_RUN = process.env.DRY_RUN === '1' || process.env.DRY_RUN === 'true';
 

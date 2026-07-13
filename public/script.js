@@ -1100,8 +1100,9 @@ function initGalleryFilters() {
     
     // Supabase config (chaves públicas - seguras para frontend)
     // Permite override por window/meta para evitar divergência entre ambientes sem rebuild do JS.
-    const DEFAULT_SUPABASE_URL = 'https://hijmbsxcvcugnmkvldgl.supabase.co';
-    const DEFAULT_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhpam1ic3hjdmN1Z25ta3ZsZGdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg2Nzk1MzUsImV4cCI6MjA4NDI1NTUzNX0.Q4Hy-K8RxhVDCarj_ojD5ILb11iO4Jk7KC-5fYlrTh0';
+    const DEFAULT_SUPABASE_URL = 'https://aigegzzlmpxtfewxixif.supabase.co';
+    const DEFAULT_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpZ2VnenpsbXB4dGZld3hpeGlmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM5NjE5MTksImV4cCI6MjA5OTUzNzkxOX0.I64rIVU9cOzSry8AV_NIyJcdQs6dWBx7q3IJTO-rllU';
+    const GALLERY_CACHE_KEY = 'gallery_cache_aigegzzlmpxtfewxixif';
 
     function getMetaContent(name) {
         const el = document.querySelector(`meta[name="${name}"]`);
@@ -1255,7 +1256,7 @@ function initGalleryFilters() {
             
             // Cache no sessionStorage para próxima visita
             try {
-                sessionStorage.setItem('gallery_cache', JSON.stringify({
+                sessionStorage.setItem(GALLERY_CACHE_KEY, JSON.stringify({
                     products: shuffled,
                     imageMap: imageMap,
                     timestamp: Date.now()
@@ -1416,7 +1417,7 @@ function initGalleryFilters() {
     
     // Verificar cache (válido por 5 minutos)
     try {
-        var cached = sessionStorage.getItem('gallery_cache');
+        var cached = sessionStorage.getItem(GALLERY_CACHE_KEY);
         if (cached) {
             cached = JSON.parse(cached);
             if (Date.now() - cached.timestamp < 5 * 60 * 1000) {

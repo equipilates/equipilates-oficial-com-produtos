@@ -1,5 +1,7 @@
 ---
 // Login page - no auth required
+const supabaseUrl = import.meta.env.PUBLIC_SUPABASE_URL || 'https://aigegzzlmpxtfewxixif.supabase.co';
+const supabaseKey = import.meta.env.PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpZ2VnenpsbXB4dGZld3hpeGlmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM5NjE5MTksImV4cCI6MjA5OTUzNzkxOX0.I64rIVU9cOzSry8AV_NIyJcdQs6dWBx7q3IJTO-rllU';
 ---
 
 <!DOCTYPE html>
@@ -217,11 +219,9 @@
     </div>
   </div>
 
-  <script type="module">
+  <script type="module" define:vars={{ supabaseUrl, supabaseKey }}>
     import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
-    const supabaseUrl = 'https://hijmbsxcvcugnmkvldgl.supabase.co';
-    const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhpam1ic3hjdmN1Z25ta3ZsZGdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg2Nzk1MzUsImV4cCI6MjA4NDI1NTUzNX0.Q4Hy-K8RxhVDCarj_ojD5ILb11iO4Jk7KC-5fYlrTh0';
     const supabase = createClient(supabaseUrl, supabaseKey);
 
     // Check if already logged in
